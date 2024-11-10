@@ -1,48 +1,39 @@
 package xyz.example.Tests;
 
-import org.testng.annotations.DataProvider;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import xyz.example.Pages.HomePage;
 import xyz.example.Pages.LoginPage;
 
+import java.time.Duration;
+
 import static org.testng.Assert.assertEquals;
 
-public class LoginWithDataProviders extends TestBase {
-
+public class Login extends TestBase {
 
     LoginPage loginPage;
     HomePage homePage;
 
-    @DataProvider(name = "login")
-    public Object[][] loginData() {
-
-        return new Object[][]
-
-                {
-                        {"ahmedcrm10@naqla.xyz", "ahmed1234"},
-                     //   {"ahmedops10@naqla.xyz", "ahmed1234"}
-
-                };
-    }
-
-    @Test(dataProvider = "login")
-    public void loginWithValidData(String email, String password) throws InterruptedException {
+    @Test
+    public void loginWithValidData() {
         homePage = new HomePage(driver);
         loginPage = new LoginPage(driver);
-        loginPage.login(email, password);
-        Thread.sleep(3000);
+        loginPage.login("ahmedcrm10@naqla.xyz", "ahmed1234");
         assertEquals(homePage.accountUserName.getText(), "Test_AHmedCRM");
-        homePage.signOut.click();
-
     }
 
     @Test
     public void loginWithNotExistedMail() throws InterruptedException {
-        homePage = new HomePage(driver);
+
+
+         homePage = new HomePage(driver);
         loginPage = new LoginPage(driver);
         loginPage.login("ahmed1234@naqla.xyz", "ahmed1234");
         assertEquals(loginPage.loginErrorMessage.getText(), "Your credentials are not correct. Please check your email/password.");
-
 
     }
 

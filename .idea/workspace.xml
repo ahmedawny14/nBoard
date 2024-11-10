@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4bbf32b9-207a-434b-a404-f82c80dc0007" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/properties/userData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/example/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/example/Pages/IndividualClientPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/example/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/example/Pages/ManagementServicePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/example/Pages/PageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/ReadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/data/ReadingFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xyz/example/Tests/IndividualClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xyz/example/Tests/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xyz/example/Tests/LoginWithExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xyz/example/Tests/LoginWithFileProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xyz/example/Tests/ManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xyz/example/Tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xyz/example/Tests/LoginWithDataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xyz/example/Tests/LoginWithDataProviders.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2nWxuLOsA7F8yK19KfwQq9y8Of2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.CreateNewIndividualClient.createNewClient.executor": "Run",
+    "TestNG.CreateNewIndividualClient.createNewClientWithDuplicatedPhoneNumber.executor": "Run",
+    "TestNG.CreateNewIndividualClient.createNewClientWithValidData.executor": "Run",
+    "TestNG.CreateNewIndividualClient.createNewClientWithoutArabicName.executor": "Run",
+    "TestNG.CreateNewIndividualClient.createNewClientWithoutEnglishName.executor": "Run",
+    "TestNG.CreateNewIndividualClient.createNewClientWithoutPhoneNumber.executor": "Run",
+    "TestNG.CreateNewIndividualClient.createNewClientWithouthArabicName.executor": "Run",
+    "TestNG.IndividualClient.createNewClientWithoutEnglishName.executor": "Run",
+    "TestNG.IndividualClient.searchWithArabicName.executor": "Run",
+    "TestNG.IndividualClient.searchWithEnglishName.executor": "Run",
+    "TestNG.IndividualClient.searchWithId.executor": "Run",
+    "TestNG.IndividualClient.searchWithPhoneNumber.executor": "Run",
+    "TestNG.Login.login.executor": "Run",
+    "TestNG.Login.loginWithNotExistedMail.executor": "Run",
+    "TestNG.Login.loginWithValidData.executor": "Run",
+    "TestNG.Login.loginWithWrongPassword.executor": "Run",
+    "TestNG.LoginWithDataProviders.loginWithValidData.executor": "Run",
+    "TestNG.LoginWithExcel.loginWithNotExistedMail.executor": "Run",
+    "TestNG.LoginWithExcel.loginWithValidData.executor": "Run",
+    "TestNG.LoginWithFileProperties.loginWithValidData.executor": "Run",
+    "TestNG.ManagementService.createManageServiceWithValidData.executor": "Run",
+    "TestNG.ManagementService.createManageServiceWithoutClientName.executor": "Run",
+    "TestNG.ManagementService.createManageServiceWithoutCost.executor": "Run",
+    "TestNG.ManagementService.createManageServiceWithoutOpsExpanses.executor": "Run",
+    "TestNG.ManagementService.createManageServiceWithoutSelling.executor": "Run",
+    "TestNG.ManagementService.searchForANOrder.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AhmedAwny\eclipse-workspace\nBoardNewProject\src\test\java\data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.example.Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginWithDataProviders.loginWithValidData">
+    <configuration name="IndividualClient.searchWithArabicName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="nBoardNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.example.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="xyz.example.Tests.IndividualClient" />
+      <option name="METHOD_NAME" value="searchWithArabicName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualClient.searchWithEnglishName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="nBoardNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.example.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="xyz.example.Tests.IndividualClient" />
+      <option name="METHOD_NAME" value="searchWithEnglishName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualClient.searchWithId" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="nBoardNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.example.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="xyz.example.Tests.IndividualClient" />
+      <option name="METHOD_NAME" value="searchWithId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndividualClient.searchWithPhoneNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="nBoardNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.example.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="xyz.example.Tests.IndividualClient" />
+      <option name="METHOD_NAME" value="searchWithPhoneNumber" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginWithDataProviders.loginWithValidData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="nBoardNewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.example.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xyz.example.Tests" />
+      <option name="MAIN_CLASS_NAME" value="xyz.example.Tests.LoginWithDataProviders" />
+      <option name="METHOD_NAME" value="loginWithValidData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginWithDataProviders.loginWithValidData" />
+        <item itemvalue="TestNG.IndividualClient.searchWithPhoneNumber" />
+        <item itemvalue="TestNG.IndividualClient.searchWithArabicName" />
+        <item itemvalue="TestNG.IndividualClient.searchWithEnglishName" />
+        <item itemvalue="TestNG.IndividualClient.searchWithId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bbf32b9-207a-434b-a404-f82c80dc0007" name="Changes" comment="" />
+      <created>1729102857862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729102857862</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1730642658568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730642658568</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/xyz/example/Tests/ManagementService.java</url>
+          <line>18</line>
+          <properties class="xyz.example.Tests.ManagementService" method="createManageServiceWithValidData">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/xyz/example/Tests/ManagementService.java</url>
+          <line>106</line>
+          <properties class="xyz.example.Tests.ManagementService" method="searchForANOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/xyz/example/Tests/Login.java</url>
+          <line>21</line>
+          <properties class="xyz.example.Tests.Login" method="loginWithValidData">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/xyz/example/Tests/Login.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/xyz/example/Tests/LoginWithExcel.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/xyz/example/Tests/LoginWithDataProviders.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

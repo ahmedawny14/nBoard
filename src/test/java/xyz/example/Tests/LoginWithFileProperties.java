@@ -1,35 +1,35 @@
 package xyz.example.Tests;
 
+import data.ReadProperties;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import xyz.example.Pages.HomePage;
 import xyz.example.Pages.LoginPage;
 
+import java.io.IOException;
+
 import static org.testng.Assert.assertEquals;
 
-public class LoginWithDataProviders extends TestBase {
+public class LoginWithFileProperties extends TestBase {
+
+
 
 
     LoginPage loginPage;
     HomePage homePage;
+    ReadProperties properties=new ReadProperties();
 
-    @DataProvider(name = "login")
-    public Object[][] loginData() {
 
-        return new Object[][]
+    String myEmail= ReadProperties.userData.getProperty("email");
+    String myPassword= ReadProperties.userData.getProperty("password");
 
-                {
-                        {"ahmedcrm10@naqla.xyz", "ahmed1234"},
-                     //   {"ahmedops10@naqla.xyz", "ahmed1234"}
 
-                };
-    }
 
-    @Test(dataProvider = "login")
-    public void loginWithValidData(String email, String password) throws InterruptedException {
+    @Test()
+    public void loginWithValidData( ) throws InterruptedException {
         homePage = new HomePage(driver);
         loginPage = new LoginPage(driver);
-        loginPage.login(email, password);
+        loginPage.login(myEmail, myPassword);
         Thread.sleep(3000);
         assertEquals(homePage.accountUserName.getText(), "Test_AHmedCRM");
         homePage.signOut.click();
