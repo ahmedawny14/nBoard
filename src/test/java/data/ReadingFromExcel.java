@@ -14,7 +14,7 @@ public class ReadingFromExcel {
 
     public FileInputStream getFileInputStream()
     {
-        String filePath = System.getProperty("user.dir")+"/src/test/java/data/user data.xlsx";
+        String filePath = System.getProperty("user.dir")+"/src/test/java/data/Login Data.xlsx";
         File srcFile = new File(filePath);
 
         try {
