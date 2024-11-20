@@ -20,7 +20,7 @@ public class ReadingFromExcel {
         try {
             fis = new FileInputStream(srcFile);
         } catch (FileNotFoundException e) {
-            System.out.println("Test Data file not found. terminating Process !! : Check file path of TestData");
+            System.out.println("Not Found");
             System.exit(0);
         }
         return fis ;
